@@ -1,0 +1,148 @@
+@font-face {
+    font-family: industry;
+    font-display: swap;
+    src: url("/fonts/industry-bold-webfont.woff2") format("woff2"),
+         url("/fonts/industry-bold-webfont.woff") format("woff");
+  
+  }
+  
+  .home {
+      border-radius: 10px;
+      padding: 17px;
+  
+  }
+  
+  body {
+      width: 100vw;
+      overflow-x: hidden;
+      background-repeat: no-repeat;
+  }
+  
+  a, a:hover, button, button:hover {
+      transition: all 0.2s;
+      
+    }
+  
+    a:hover {
+      color: yellow;
+  }
+  
+  .forge-nav {
+      top: 0;
+      position: fixed;
+      z-index: 1;
+      width: 100%;
+      height: 80px;
+      background-color: black;
+      z-index: 3;
+  }
+  
+  .nav-logo {
+      position: absolute;
+      padding-left: 10%;
+      padding-top: 1%;
+     
+  
+  }
+  
+  .ham {
+      margin-left: 75%;
+      margin-top: -0.6%;
+  }
+  
+  /* front-page */
+  
+  .banner {
+      height:500px;
+      background: linear-gradient(90deg, rgba(252,179,31,1) 65%, rgba(0,0,0,1) 65%);
+  }
+  
+  .forge-name {
+      
+      padding-top: 10%;
+      padding-left: 20%;
+  }
+  
+  .mobileForge {
+    display: none;
+  }
+  
+  .banner-arrow {
+      padding-top: 0%;
+      padding-left: 58%;
+  
+  }
+  
+  .black-text {
+      position: absolute;
+      line-height: 70%;
+      padding-top: 100px;
+      padding-left: 70%;
+      color: #FCB31F;
+      font-size: 42px;
+      font-weight: bold;
+      text-align: left;
+      overflow-wrap:break-word;
+  }
+  
+  .tab-black-text {
+    display: none;
+  }
+  
+  
+  
+  .ban-line {
+      padding-left: 0;
+      width: 65%;
+      border-bottom: 5px solid white;
+  }
+  
+  .ban-button {
+      font-weight: bold;
+      position:absolute;
+      padding-top: 22%;
+      padding-left: 70%;
+  }
+  
+  .talk {
+    font-family: industry, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .tab-arrow {
+    display: none;
+  }
+  
+  /* creative section */
+  
+  .section-create {
+      height: 550px;
+      background-color: #FCB31F ;
+  }
+  
+  .create-border {
+    position: relative;
+    padding-top: 6%;
+    padding-left: 15%;
+  
+  }
+  
+  
+  .section-text {
+    position: absolute;
+    font-family: industry, sans-serif;
+    font-weight: bold;
+    font-size: 72px;
+    padding-left: 20%;
+    padding-top: 9%;
+    line-height: 75%;
+  
+  }
+  
+  .excerpt {
+    position: absolute;
+    padding-left: 60%;
+    padding-top: 10%;
+  }
+  
